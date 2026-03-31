@@ -28,7 +28,7 @@ async def count_colonies(file: UploadFile = File(...)):
     tmp_path = None
 
     try:
-        # Read uploaded file
+     
         image_bytes = await file.read()
 
         if not image_bytes:
